@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+    --pink: #ef5777;
+    --white: #fff;
+    --black: #222;
+    --transparent-white: rgba(255, 255, 255, .3);
+    --border: .2rem solid var(--black);
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--pink);
+}
+body{
+    background: url(/Wedding_planner/image/background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header{
+    position: relative;
+    z-index: 1000;
+}
